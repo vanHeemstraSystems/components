@@ -1,3 +1,12 @@
+/*
+ * OhmageIndicator.js
+ *
+ * This component displays the actual calculated ohmage of the resistor. 
+ * Notice it doesn't actually do the calculation, a higher level component takes care of that. 
+ * The only logic in this component is concerned with rendering an appropriate unit of resistance, be it Ω, KΩ or MΩ.
+ *
+ * This component only expects 1 prop to be passed, resistance.
+ */
 import React, { Component } from 'react';
 
 const OhmageIndicator = ({ resistance }) => {
