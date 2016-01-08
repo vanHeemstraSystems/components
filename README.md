@@ -1,6 +1,9 @@
 # components
 The Components Subtree
 
+##Directory Structure
+- Following the directory structure as demonstrated by material-ui at https://github.com/callemall/material-ui
+
 ##Best Practices
 - Use Composition over Inheritance (see https://reactjsnews.com/composing-components/#move-over-mixins-use-higher-order-components ). A video explaining the difference (see https://youtu.be/dYUZiJEy0JE )
 - Mixins Are Dead. Long Live Composition (see https://medium.com/@dan_abramov/mixins-are-dead-long-live-higher-order-components-94a0d2f9e750#.y90lczqlf )
