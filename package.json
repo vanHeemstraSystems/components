@@ -1,8 +1,8 @@
 {
-  "name": "material-ui",
-  "author": "Call-em-all Engineering Team",
+  "name": "components",
+  "author": "van Heemstra Systems",
   "version": "0.14.2",
-  "description": "Material Design UI components built with React",
+  "description": "Components built with React",
   "main": "./lib",
   "scripts": {
     "test": "npm run test-base -- --single-run",
@@ -16,19 +16,17 @@
   "keywords": [
     "react",
     "react-component",
-    "material design",
-    "material-ui",
-    "material ui"
+    "components"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/callemall/material-ui.git"
+    "url": "https://github.com/vanheemstrasystems/components.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/callemall/material-ui/issues"
+    "url": "https://github.com/vanheemstrasystems/components/issues"
   },
-  "homepage": "http://material-ui.com/",
+  "homepage": "http://vanheemstrasystems.com/",
   "dependencies": {
     "inline-style-prefixer": "^0.5.2",
     "lodash.merge": "^3.3.2",
