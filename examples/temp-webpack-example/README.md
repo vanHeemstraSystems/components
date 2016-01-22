@@ -5,9 +5,9 @@ Based on https://webpack.github.io/docs/tutorials/getting-started/
 
 Run the project like so:
 
-$ webpack ./entry.js bundle.js
+$ webpack
 
-Open index.html in your browser. It should display "It works from content.js".
+Open src/www/index.html in your browser. It should display "It works from content.js".
 
 About Webpack:
 
