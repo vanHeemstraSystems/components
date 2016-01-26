@@ -1,11 +1,11 @@
-# webpack-headstart
-Webpack - Headstart
+# components
+Components
 
 Based on https://webpack.github.io/docs/tutorials/getting-started/
 
-Run the project like so:
+Build the project like so:
 
-$ webpack
+$ npm build
 
 Open src/www/index.html in your browser. It should display "It works from content.js".
 

@@ -1,24 +1,28 @@
 {
-  "name": "webpack-headstart",
+  "name": "components-example-temp-webpack",
   "version": "1.0.0",
-  "description": "Webpack - Headstart",
+  "description": "Sample project that uses components",
   "main": "entry.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack-production.config.js --progress --colors"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/willem-vanheemstrasystems/webpack-headstart.git"
+    "url": "https://github.com/vanheemstrasystems/components.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "van Heemstra Systems",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/willem-vanheemstrasystems/webpack-headstart/issues"
+    "url": "https://github.com/vanheemstrasystems/components/issues"
   },
-  "homepage": "https://github.com/willem-vanheemstrasystems/webpack-headstart#readme",
+  "homepage": "https://github.com/vanheemstrasystems/components#readme",
+  "devDependencies": {
+    "webpack": "^1.12.11"
+  },
   "dependencies": {
     "css-loader": "^0.23.1",
     "style-loader": "^0.13.0",
-    "webpack": "^1.12.11"
+    "react": "^0.14.3"
   }
 }
