@@ -21,13 +21,13 @@ module.exports = {
   module: {
     loaders: [
         {test: /\.js$/, loaders: ['babel'], include: path.join(__dirname, 'src')}, // for local js files in 'src'
-        {test: /\.js$/, loaders: ['babel'], include: path.join(__dirname, '../../lib')}, // for up-the-directory-path in 'lib'
+        {test: /\.js$/, loaders: ['babel'], include: path.join(__dirname, '../../lib/Todo')}, // for up-the-directory-path in 'lib'
         {test: /\.less$/, loader: 'style-loader!css-loader!less-loader'}, // use ! to chain loaders
         {test: /\.css$/, loader: 'style-loader!css-loader'},
         {test: /\.scss$/, loader: 'style!css!sass'},
         {test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192'}, // inline base64 URLs for <=8k images, direct URLs for the rest
         {test: /\.rt$/, loaders: ['react-templates-loader?targetVersion=0.14.0'], include: path.join(__dirname, 'src')}, // for local js files in 'src'
-        {test: /\.rt$/, loaders: ['react-templates-loader?targetVersion=0.14.0'], include: path.join(__dirname, '../../lib')} // for up-the-directory-path in 'lib'
+        {test: /\.rt$/, loaders: ['react-templates-loader?targetVersion=0.14.0'], include: path.join(__dirname, '../../lib/Todo')} // for up-the-directory-path in 'lib'
     ]
   }
 };
